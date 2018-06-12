@@ -1,0 +1,32 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kewal",
+  "license": "MIT",
+  "devDependencies": {
+    "@cedx/gulp-php-minify": "^7.1.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.4",
+    "clean-css": "^4.1.11",
+    "gulp": "4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-image": "^4.3.0",
+    "gulp-less": "^3.5.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "uglifycss": "^0.0.29"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "cd": "^0.3.3",
+    "gulp-connect-php": "^1.0.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "tether": "^1.4.4"
+  }
+}

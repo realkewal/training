@@ -1,0 +1,89 @@
+
+$bg-color: gray;
+$brand-red: #ec5252;
+$brand-white: #fff;
+$text-shadow: 0 2px 4px rgba(41,48,59,.55);
+$brand-gray: #333333;
+$brand-light-gray: #F2F2F2;
+
+
+.hero {
+  min-height: 500px;
+  background: linear-gradient(rgba(236, 143, 82, 0.5), rgba(255, 212, 212, 0.5)), url('../images/learning-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $brand-white;
+  text-shadow: $text-shadow;
+}
+
+.navbar {
+  padding: 15px 10px;
+  box-shadow: $text-shadow;
+}
+
+.navbar-brand {
+  color: $brand-red !important;
+}
+
+.hero-container {
+  padding: 150px 10px;
+}
+
+.signup-email {
+  padding: 15px;
+  border: 0;
+  box-shadow: $text-shadow;
+  border-radius: 2px;
+  width: 410px;
+}
+
+.cta-button {
+  display: block;
+  padding: 15px 50px;
+  background-color: $brand-red;
+  color: $brand-white;
+  box-shadow: $text-shadow;
+}
+
+.hero-footer {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  color: $brand-white;
+  padding: 40px 0;
+}
+
+.btn-brand-red {
+  background-color: $brand-red;
+  color: $brand-white;
+}
+
+.featured-heading {
+  color: $brand-gray;
+}
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  width: 16rem;
+}
+
+.card-img-top {
+  height: 200px;
+  overflow: hidden;
+}
+
+// @include media-breakpoint-down(sm) { 
+//   .signup-email {
+//     width: 200px;
+//   }
+// }
+
+.footer {
+  background: $brand-light-gray;
+}
+
+footer {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  color: #fff;
+  margin: 0;
+}
