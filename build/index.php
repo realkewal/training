@@ -68,9 +68,11 @@
     </div>
 
 
-    <div class="container-fluid py-5">
+    <section class="container-fluid py-5">
       <h1 class="display-5 text-center featured-heading">Featured courses</h1>
-      <div class="container py-5">
+
+      <h3 class=""></h3>
+      <div class="cards-wrapper py-5">
         <div class="card" >
           <img class="card-img-top" src="https://images.unsplash.com/photo-1528702089051-073df03e151b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjI4ODEzfQ&s=37abcb5702837b3f7721bc3f37401489" alt="Card image cap">
           <div class="card-body">
@@ -145,7 +147,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="container-fluid footer px-0">
       <div class="container py-5">

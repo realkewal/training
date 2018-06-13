@@ -43,15 +43,6 @@
 .featured-heading {
   color: #333333; }
 
-.card {
-  display: inline-block;
-  margin: 5px;
-  width: 16rem; }
-
-.card-img-top {
-  height: 200px;
-  overflow: hidden; }
-
 .footer {
   background: #F2F2F2; }
 
@@ -59,3 +50,23 @@ footer {
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
   color: #fff;
   margin: 0; }
+
+.cards-wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 200px;
+  overflow-x: auto;
+  width: 100%; }
+
+.cards-wrapper::-webkit-scrollbar {
+  display: none; }
+
+.card {
+  flex-shrink: 0;
+  margin: 5px;
+  width: 250px; }
+
+.card-img-top {
+  height: 200px;
+  overflow: hidden; }
