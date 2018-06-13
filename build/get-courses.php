@@ -1,0 +1,2 @@
+<?php
+ function getCourses() { include_once "db.inc.php"; $sql = "SELECT * FROM courses"; $result = mysqli_query($link, $sql); $html = array(); if (mysqli_num_rows($result) > 0) { while($row = $result->fetch_assoc()) { array_push($html, $row); } } else { $error="Cannot get courses"; } mysqli_close($sql); return $html; } $courses = getCourses(); echo json_encode($courses); ?>

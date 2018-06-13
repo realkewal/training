@@ -92,19 +92,24 @@
           <a class="nav-link" href="#">Other</a>
         </li>
       </ul>
-      </div>
+      </div> 
       
 
       <h3 class="ml-2">Technology</h3>
-      <?php include "courses.php" ?>
+      <div class="cards-wrapper py-3 mb-3" id="technology">
+      </div>
       <h3 class="ml-2">Marketing</h3>
-      <?php include "courses.php" ?>
+      <div class="cards-wrapper py-3 mb-3" id="marketing">
+      </div>
       <h3 class="ml-2">Business</h3>
-      <?php include "courses.php" ?>
+      <div class="cards-wrapper py-3 mb-3" id="business">
+      </div>
       <h3 class="ml-2">Science</h3>
-      <?php include "courses.php" ?>
+      <div class="cards-wrapper py-3 mb-3" id="science">
+      </div>
       <h3 class="ml-2">Other</h3>
-      <?php include "courses.php" ?>
+      <div class="cards-wrapper py-3 mb-3" id="other">
+      </div>
 
     </section>
 
