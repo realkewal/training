@@ -1,3 +1,6 @@
+body {
+  background-color: #F8F8F8; }
+
 .hero {
   min-height: 500px;
   background: linear-gradient(rgba(236, 143, 82, 0.5), rgba(255, 212, 212, 0.5)), url("../images/learning-hero.jpg");
@@ -12,7 +15,7 @@
   box-shadow: 0 2px 4px rgba(41, 48, 59, 0.55); }
 
 .navbar-brand {
-  color: #ec5252 !important; }
+  color: #00ab84 !important; }
 
 .hero-container {
   padding: 150px 10px; }
@@ -27,32 +30,52 @@
 .cta-button {
   display: block;
   padding: 15px 50px;
-  background-color: #ec5252;
+  background-color: #00ab84;
   color: #fff;
   box-shadow: 0 2px 4px rgba(41, 48, 59, 0.55); }
 
 .hero-footer {
-  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  background-image: linear-gradient(to right, #00ab84 0%, #7CFAC3 100%);
   color: #fff;
   padding: 40px 0; }
 
-.btn-brand-red {
-  background-color: #ec5252;
+.btn-brand-green {
+  background-color: #00ab84;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(41, 48, 59, 0.55); }
+
+.btn-brand-green:hover {
   color: #fff; }
 
 .featured-heading {
   color: #333333; }
 
+.card-title {
+  color: #00ab84; }
+
+.card-footer {
+  background: #00ab84;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 10px;
+  border: 0;
+  font-size: 0.8rem; }
+
+.course-type {
+  background-color: #fff;
+  color: #00ab84;
+  padding: 0 5px; }
+
 .footer {
   background: #F2F2F2; }
 
 footer {
-  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  background-image: linear-gradient(to right, #00ab84 0%, #7CFAC3 100%);
   color: #fff;
   margin: 0; }
 
 .cards-wrapper {
-  background-color: #fff;
+  background-color: transparent;
   display: flex;
   flex-wrap: nowrap;
   min-height: 200px;
@@ -60,13 +83,46 @@ footer {
   width: 100%; }
 
 .cards-wrapper::-webkit-scrollbar {
-  display: none; }
+  height: 5px; }
+
+.cards-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 1px; }
+
+.cards-wrapper::-webkit-scrollbar-thumb {
+  background: #00ab84; }
 
 .card {
   flex-shrink: 0;
   margin: 5px;
-  width: 250px; }
+  width: 250px;
+  transform: translate(1.2);
+  border: 0; }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 300ms ease;
+  z-index: 999;
+  cursor: pointer; }
 
 .card-img-top {
   height: 200px;
   overflow: hidden; }
+
+.nav-explore-btn {
+  background-color: #00ab84;
+  color: #fff !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  border-radius: 2px; }
+
+.pills-wrapper .nav .nav-item a.active {
+  background-color: #00ab84 !important;
+  color: #fff !important; }
+
+.pills-wrapper .nav .nav-item a {
+  color: #00ab84 !important; }
+
+@media (max-width: 576px) {
+  .signup-email {
+    width: 100% !important; } }
