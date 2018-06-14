@@ -2,9 +2,9 @@
     $dbServerName = "shareddb-h.hosting.stackcp.net";
     $dbUserName = "trainingdb-3331d1ec";
     $dbPassword = "2znfigegap";
-    $dbName = "trainingdb-3331d1ec ";
+    $dbName = "trainingdb-3331d1ec";
 
-    // $dbServerName = "localhost";
+    // $dbServerName = "localhost ";
     // $dbUserName = "root";
     // $dbPassword = "root";
     // $dbName = "training_db";
