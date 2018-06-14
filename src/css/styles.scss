@@ -111,6 +111,8 @@ footer {
   min-height: 200px;
   overflow-x: auto;
   width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .cards-wrapper::-webkit-scrollbar {
@@ -137,7 +139,7 @@ footer {
 .card:hover {
   transform: scale(1.05);
   transition: all 300ms ease;
-  z-index: 999;
+  z-index: 49;
   cursor: pointer;
 }
 .card-img-top {
@@ -154,12 +156,12 @@ footer {
   border-radius: 2px;
 }
 
-.pills-wrapper .nav .nav-item a.active {
+.pills-wrapper .nav .nav-item span.active {
   background-color: $brand-green !important;
   color: $brand-white !important;
 }
 
-.pills-wrapper .nav .nav-item a {
+.pills-wrapper .nav .nav-item span {
   color: $brand-green !important;
 }
 
@@ -168,3 +170,57 @@ footer {
     width: 100% !important;
   }
  }
+
+ .left-arrow {
+   position: absolute;
+   left: 10px;
+   background-color: $brand-green;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   
+   cursor: pointer;
+   z-index: 50;
+
+ }
+
+ .right-arrow {
+   position: absolute;
+   right: 10px;
+   background-color: $brand-green;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   
+   cursor: pointer;
+      z-index: 50;
+ }
+
+.left-arrow, .right-arrow {
+  padding: 12px;
+  color: $brand-white;
+  margin-top: 179px;
+}
+
+.left-arrow:hover , .right-arrow:hover {
+  box-shadow: $text-shadow;
+}
+
+.left-arrow:active , .right-arrow:active {
+  box-shadow: none;
+}
+
+@keyframes fadeIn {
+to {
+  opacity: 1;
+}
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
+}

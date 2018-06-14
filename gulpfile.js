@@ -10,6 +10,7 @@ const { phpMinify } = require('@cedx/gulp-php-minify');
 const connect = require('gulp-connect-php');
 const image = require('gulp-image');
 const babel = require('gulp-babel');
+const browserify = require('gulp-browserify');
 
 
 gulp.task('html', gulp.series(function () {
@@ -34,6 +35,7 @@ gulp.task('babel', () =>
       presets: ['env']
     }))
     .pipe(gulp.dest('build/js'))
+    .pipe(browserSync.stream())
 );
 
 gulp.task('js', gulp.series(function () {

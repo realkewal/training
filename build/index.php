@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Training</title>
@@ -74,41 +75,54 @@
       <div class="pills-wrapper d-flex justify-content-center py-3">
         <ul class="nav nav-pills mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">All</a>
+          <span class="nav-link active" id="all-btn" onclick="display('all')">All</span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Technology</a>
+          <span class="nav-link" id="technology-btn" onclick="display('technology')">Technology</span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Marketing</a>
+          <span class="nav-link" id="marketing-btn" onclick="display('marketing')">Marketing</span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Business</a>
+          <span class="nav-link" id="business-btn" onclick="display('business')">Business</span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Science</a>
+          <span class="nav-link" id="science-btn" onclick="display('science')">Science</span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Other</a>
+          <span class="nav-link" id="other-btn" onclick="display('other')">Other</span>
         </li>
       </ul>
       </div> 
       
-
-      <h3 class="ml-2">Technology</h3>
-      <div class="cards-wrapper py-3 mb-3" id="technology">
+      <div id="technology-wrapper">
+        <h3 class="ml-2">Technology</h3>
+        <div class="cards-wrapper py-3 mb-3" id="technology">
+        </div>
       </div>
-      <h3 class="ml-2">Marketing</h3>
-      <div class="cards-wrapper py-3 mb-3" id="marketing">
+      
+      <div id="marketing-wrapper">
+        <h3 class="ml-2">Marketing</h3>
+        <div class="cards-wrapper py-3 mb-3" id="marketing">
+        </div>
+      </div>      
+      
+      <div id="business-wrapper">
+        <h3 class="ml-2">Business</h3>
+        <div class="cards-wrapper py-3 mb-3" id="business">
+        </div>
       </div>
-      <h3 class="ml-2">Business</h3>
-      <div class="cards-wrapper py-3 mb-3" id="business">
+      
+      <div id="science-wrapper">
+        <h3 class="ml-2">Science</h3>
+        <div class="cards-wrapper py-3 mb-3" id="science">
+        </div>
       </div>
-      <h3 class="ml-2">Science</h3>
-      <div class="cards-wrapper py-3 mb-3" id="science">
-      </div>
-      <h3 class="ml-2">Other</h3>
-      <div class="cards-wrapper py-3 mb-3" id="other">
+      
+      <div id="other-wrapper">
+        <h3 class="ml-2">Other</h3>
+        <div class="cards-wrapper py-3 mb-3" id="other">
+        </div>
       </div>
 
     </section>
